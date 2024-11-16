@@ -1,1 +1,7 @@
-# Baby
+echo "# Mybaby" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Peachmangop/Mybaby.git
+git push -u origin main
